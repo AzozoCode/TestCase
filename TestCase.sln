@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCase", "TestCase\TestCase.csproj", "{D4469FFA-B27C-4643-B184-5A79A222D33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagementLibrary", "HrManagementLibrary\HrManagementLibrary.csproj", "{EAF668CC-7284-4A33-AE9F-419030B1B31E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4469FFA-B27C-4643-B184-5A79A222D33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4469FFA-B27C-4643-B184-5A79A222D33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4469FFA-B27C-4643-B184-5A79A222D33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4469FFA-B27C-4643-B184-5A79A222D33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF668CC-7284-4A33-AE9F-419030B1B31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF668CC-7284-4A33-AE9F-419030B1B31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF668CC-7284-4A33-AE9F-419030B1B31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF668CC-7284-4A33-AE9F-419030B1B31E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E72EFF-FB8C-4278-B11A-015F639154E9}
+	EndGlobalSection
+EndGlobal
