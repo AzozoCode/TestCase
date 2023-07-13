@@ -1,0 +1,10 @@
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\bin\Debug\TestCase.exe.config
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\bin\Debug\TestCase.exe
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\bin\Debug\TestCase.pdb
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\bin\Debug\HrManagementLibrary.dll
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\bin\Debug\HrManagementLibrary.pdb
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\obj\Debug\TestCase.csproj.AssemblyReference.cache
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\obj\Debug\TestCase.csproj.CoreCompileInputs.cache
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\obj\Debug\TestCase.csproj.CopyComplete
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\obj\Debug\TestCase.exe
+C:\Users\randy.joseph\source\repos\TestCase\TestCase\obj\Debug\TestCase.pdb

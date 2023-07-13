@@ -19,6 +19,19 @@ namespace TestCase
 
             SeedData(employees);
 
+            unsafe
+            {
+                
+                int x = 100;
+
+                int* pointer = &x;
+
+                Console.WriteLine((int)pointer);
+                Console.WriteLine($"The int value is : {*pointer}");
+                Console.WriteLine($"The string value is : {pointer->ToString()}");
+            }
+            
+
             Console.WriteLine($"Total Annual Salaries (including bonus) : {employees.Sum(e => e.Salary)}");
             Console.ReadKey();
         }
