@@ -1,6 +1,0 @@
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\bin\Debug\HrManagementLibrary.dll
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\bin\Debug\HrManagementLibrary.pdb
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\obj\Debug\HrManagementLibrary.csproj.AssemblyReference.cache
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\obj\Debug\HrManagementLibrary.csproj.CoreCompileInputs.cache
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\obj\Debug\HrManagementLibrary.dll
-C:\Users\randy.joseph\source\repos\TestCase\HrManagementLibrary\obj\Debug\HrManagementLibrary.pdb

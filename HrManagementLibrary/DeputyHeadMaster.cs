@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestCase
+namespace HrManagementLibrary
 {
     public class DeputyHeadMaster : EmployeeBase 
     {

@@ -43,14 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeputyHeadMaster.cs" />
-    <Compile Include="EmployeeFactory.cs" />
-    <Compile Include="EmployeeType.cs" />
-    <Compile Include="HeadMaster.cs" />
-    <Compile Include="HeadOfDepartment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using HrManagementLibrary;
 
-namespace TestCase
+namespace HrManagementLibrary
+
 {
     public class HeadMaster : EmployeeBase
     {

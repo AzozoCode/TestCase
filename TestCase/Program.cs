@@ -20,7 +20,7 @@ namespace TestCase
             SeedData(employees);
 
             Console.WriteLine($"Total Annual Salaries (including bonus) : {employees.Sum(e => e.Salary)}");
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         public static void SeedData(List<IEmployee> employee)
