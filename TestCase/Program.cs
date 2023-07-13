@@ -9,69 +9,40 @@ namespace TestCase
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
 
-            
+           //  decimal totalSalaries = 0;
+
+            List<IEmployee> employees = new List<IEmployee>();
+
+            SeedData(employees);
+
+            Console.WriteLine($"Total Annual Salaries (including bonus) : {employees.Sum(e => e.Salary)}");
             Console.ReadLine();
         }
 
         public static void SeedData(List<IEmployee> employee)
         {
-            IEmployee teacher1 = new Teacher
-            {
-                Id = 1,
-                FirstName = "David",
-                LastName = "Moore",
-                Salary = 4000
-
-            };
-
+            IEmployee teacher1 = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher, 1, "Randy", "Barrigah", 40000);
             employee.Add(teacher1);
 
-            IEmployee teacher2 = new Teacher
-            {
-                Id = 2,
-                FirstName = "John",
-                LastName = "Banner",
-                Salary = 4500
-            };
+            IEmployee teacher2 = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher, 2, "John", "Banner", 45000);
+           employee.Add(teacher2);
 
-            employee.Add(teacher2);
-
-            IEmployee headOfDepartment = new HeadOfDepartment { 
-            
-             Id = 3,
-             FirstName = "Mario",
-             LastName = "Kings",
-             Salary = 6000
-            };
-
+            IEmployee headOfDepartment = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadOfDepartment, 3, "Mario", "Kings", 48000); 
             employee.Add(headOfDepartment);
 
-            IEmployee deputyHeadMaster = new DeputyHeadMaster
-            {
-                Id = 4,
-                FirstName = "Michael",
-                LastName = "Nartey",
-                Salary = 7500
-            };
-
+            IEmployee deputyHeadMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.DeputyHeadMaster, 4, "Michael", "Nartey", 52000);
             employee.Add(deputyHeadMaster);
 
-            IEmployee headMaster = new HeadMaster {
-                Id = 5,
-                FirstName = "Joseph",
-                LastName = "Hagan",
-                Salary = 8000
-            
-            };
-
+            IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadMaster, 4, "Joseph", "Hagan", 58000);
             employee.Add(headMaster);
         }
 
         
-
+        
         
     }
 }
